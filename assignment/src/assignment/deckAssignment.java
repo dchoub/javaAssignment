@@ -44,6 +44,9 @@ public class deckAssignment {
 		System.out.println("***********Shuffle and print diamonds***********");
 		shuffleCards(diamondsCards);
 		printCard(diamondsCards);
+		
+		System.out.println("******************sorting*************");
+		sorting();
 
 	}
 	
@@ -85,4 +88,10 @@ public class deckAssignment {
 	}
 
 }
+	
+	public static void sorting() {
+		Collections.sort(spadesCards);
+		printCard(spadesCards);
+		
+	}
 }
